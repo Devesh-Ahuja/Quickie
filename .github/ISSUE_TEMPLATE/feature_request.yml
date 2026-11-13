@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest an improvement to Quickie.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe the task or problem you want Quickie to help with.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggestion
+      description: How would you like it to work?
+    validations:
+      required: true
