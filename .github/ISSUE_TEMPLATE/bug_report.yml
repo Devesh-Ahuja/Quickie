@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a problem with Quickie.
+body:
+  - type: markdown
+    attributes:
+      value: "Please keep account details, passwords, and other personal information out of your report and screenshots."
+  - type: input
+    id: app-version
+    attributes:
+      label: Quickie version
+      description: Shown at the bottom of Quickie's settings window.
+      placeholder: 0.1.0 (1)
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version and Mac model
+      placeholder: macOS 26, MacBook Air M2
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: What did you do before the problem appeared?
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+      description: What should have happened, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details
+      description: For shortcut problems, include the combination you chose and whether Accessibility permission is enabled. Screenshots are optional.
