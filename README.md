@@ -12,7 +12,7 @@ Quickie opens Google in a temporary browser window with a keyboard shortcut. Sea
 
 **[Download Quickie for Mac](https://github.com/Devesh-Ahuja/Quickie/releases/latest/download/Quickie.dmg)**
 
-Current release: **0.1.0 (build 2)**.
+Current release: **0.1.0 (build 2)**. **First time installing?** Read the [first-launch instructions](#first-launch-apple-could-not-verify-quickie) below if macOS blocks Quickie.
 
 Find release notes and the SHA-256 checksum on the [Releases page](https://github.com/Devesh-Ahuja/Quickie/releases). The DMG is also available in each release's **Assets** section. The repository's **Code → Download ZIP** option is not the app installer.
 
@@ -33,9 +33,27 @@ Find release notes and the SHA-256 checksum on the [Releases page](https://githu
 1. Download **Quickie.dmg** from [Releases](https://github.com/Devesh-Ahuja/Quickie/releases).
 2. Open the DMG and drag **Quickie** onto the **Applications** shortcut.
 3. Eject the disk image, then open **Quickie** from Applications.
-4. Choose a keyboard shortcut in Quickie's setup/settings window.
+4. If macOS blocks the first launch, follow the steps below. Once Quickie opens, choose a keyboard shortcut in its setup/settings window.
 
-Quickie is not Developer ID signed or notarized. If macOS blocks the app, follow [Apple's instructions for opening an app from an unidentified developer](https://support.apple.com/en-us/102445). Only open a download you trust; you do not need to disable Gatekeeper globally.
+### First launch: “Apple could not verify Quickie”
+
+Quickie is currently distributed without Apple Developer ID signing or notarization. macOS may show **“Quickie” Not Opened** and say Apple could not verify it is free of malware. This message means Apple has not verified the app; it is not, by itself, a malware detection.
+
+If you trust the copy downloaded from [Quickie's official GitHub release](https://github.com/Devesh-Ahuja/Quickie/releases), follow these steps:
+
+1. Try opening **Quickie** from **Applications** once, so macOS displays the warning.
+2. Click **Done** in that warning, rather than **Move to Trash**.
+3. Open **Apple menu → System Settings → Privacy & Security**.
+4. Scroll to the **Security** section. Find the message about Quickie being blocked and click **Open Anyway**.
+5. Authenticate with Touch ID or your Mac's password if asked, then click **Open** in the confirmation.
+
+After this approval, you can open that installed copy normally. A future download or update may require approval again.
+
+**No Open Anyway button?** Try opening Quickie from Applications again, then return to Privacy & Security. Apple makes the button available for about an hour after a blocked attempt. On a work or school Mac, an administrator may restrict this option.
+
+These steps apply to the unverified-developer warning above. If macOS reports malware or says the app is damaged, stop and [report the exact message](https://github.com/Devesh-Ahuja/Quickie/issues/new?template=bug_report.yml) instead.
+
+No Terminal commands or system-wide security changes are needed. See [Apple's guide to opening an app by overriding security settings](https://support.apple.com/guide/mac-help/mh40617/mac).
 
 ## Use Quickie
 
