@@ -10,9 +10,11 @@ Quickie opens Google in a temporary browser window with a keyboard shortcut. Sea
 
 ## Download
 
-**The first release is being prepared.** Version 0.1.0 is currently a draft pending an installation check; there is no public download yet.
+**[Download Quickie for Mac](https://github.com/Devesh-Ahuja/Quickie/releases/latest/download/Quickie.dmg)**
 
-Published DMGs will be available on the [Releases page](https://github.com/Devesh-Ahuja/Quickie/releases). Download **Quickie.dmg** from a release's **Assets** section. The repository's **Code → Download ZIP** option is not the app installer.
+Current release: **0.1.0 (build 2)**.
+
+Find release notes and the SHA-256 checksum on the [Releases page](https://github.com/Devesh-Ahuja/Quickie/releases). The DMG is also available in each release's **Assets** section. The repository's **Code → Download ZIP** option is not the app installer.
 
 **Requirements:** an Apple Silicon Mac (M-series), running macOS 26 or later. The current build does not support Intel Macs.
 
@@ -27,8 +29,6 @@ Published DMGs will be available on the [Releases page](https://github.com/Deves
 - Offers launch at login, an optional menu bar icon, and System, Light, or Dark window appearance.
 
 ## Install
-
-Once a release is published:
 
 1. Download **Quickie.dmg** from [Releases](https://github.com/Devesh-Ahuja/Quickie/releases).
 2. Open the DMG and drag **Quickie** onto the **Applications** shortcut.
